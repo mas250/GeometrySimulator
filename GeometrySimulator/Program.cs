@@ -8,8 +8,12 @@ namespace GeometrySimulator
         {
             Rectangle rectangle = new Rectangle(10,10,30,40);
 
+            string[] drawing = new string[] { rectangle.Draw() };
 
-            Console.WriteLine(rectangle.Draw());
+            for (int i = 0; i < drawing.Length; i++)
+            {
+                Console.WriteLine(drawing[i]);
+            }
         }
            
     }
