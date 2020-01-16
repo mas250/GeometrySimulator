@@ -6,17 +6,18 @@ namespace GeometrySimulator
 {
     public class Shape
     {
-        private string name;
-
+        public string name;
+        public int xPos;
+        public int yPos;
 
         public Shape()
         {
             this.name = "";
+            this.xPos = 0;
+            this.yPos = 0;
         }
 
-        public Shape(string name)
-        {
-            this.name = name;
-        }
+        
+        
     }
 }

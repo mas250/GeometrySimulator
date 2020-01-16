@@ -6,9 +6,11 @@ namespace GeometrySimulator
     {
         static void Main(string[] args)
         {
-            Rectangle newRect = new Rectangle();
-            
-            Console.WriteLine(newRect.name);
+            Rectangle rectangle = new Rectangle(10,10,30,40);
+
+
+            Console.WriteLine(rectangle.Draw());
         }
+           
     }
 }
