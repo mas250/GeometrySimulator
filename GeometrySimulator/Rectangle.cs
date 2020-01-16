@@ -6,22 +6,21 @@ namespace GeometrySimulator
 {
     public class Rectangle : Shape
     {
-        public string name = "Rectangle";
-
-        public int width { get; set; }
+        public int width = 0;
         public int height { get; set; }
 
-        public Rectangle(int x, int y, int w, int h)
+        public Rectangle(string n, int x, int y, int w, int h)
         {
+            name = n;
             xPos = x;
             yPos = y;
             width = w;
             height = h;
         }
 
-        public string Draw()
+        public override string Draw()
         {
-            return name + ", " + xPos + ", " + yPos + ", " + width + ", " + height ;
+            return name + " (" + xPos + ","+ yPos + ") " + "width=" + width + " "  + "height=" + height ;
         }
     }
 
