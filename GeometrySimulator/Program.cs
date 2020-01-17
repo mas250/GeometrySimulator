@@ -14,8 +14,6 @@ namespace GeometrySimulator
 
             string[] drawing = new string[] { rectangle.Draw(), square.Draw(), ellipse.Draw(), circle.Draw(), textbox.Draw() };
 
-
-
             string dashLine = new string('-', 66);
 
             Console.WriteLine(dashLine);
@@ -24,7 +22,6 @@ namespace GeometrySimulator
 
             for (int i = 0; i < drawing.Length; i++)
             {
-                
                 Console.WriteLine(drawing[i]);
             }
             Console.WriteLine(dashLine);
