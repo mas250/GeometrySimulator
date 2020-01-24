@@ -24,9 +24,9 @@ within this rectangle).
 __
 
 **Future improvements**
--user input
--exception handeling
--edge detection
--rendering to screen
+- user input
+- exception handeling
+- edge detection
+- rendering to screen
 
 __
