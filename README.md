@@ -21,7 +21,7 @@ The application allows shapes to be added to the drawing, stating the location u
 - textbox – bounding rectangle (i.e., the rectangle which surrounds the textbox; the text will be centred
 within this rectangle).
 
-__
+
 
 **Future improvements**
 - user input
@@ -29,4 +29,4 @@ __
 - edge detection
 - rendering to screen
 
-__
+
