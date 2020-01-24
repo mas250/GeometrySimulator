@@ -2,7 +2,7 @@
 
 ## A simple Visual Studio Console Application which simulates a vector-based drawing package.
 
-__
+
 
 The program simulates drawing the following shapes:
 
